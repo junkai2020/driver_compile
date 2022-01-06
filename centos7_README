@@ -1,0 +1,8 @@
+1. yum repo文件  CentOS-Base.repo CentOS-Vault.repo
+        wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo
+        sed -i -e '/mirrors.cloud.aliyuncs.com/d' -e '/mirrors.aliyuncs.com/d' /etc/yum.repos.d/CentOS-Base.repo
+        sed -i "s%http://vault.centos.org%https://mirrors.aliyun.com/centos-vault%g"  /etc/yum.repos.d/CentOS-Vault.repo
+        sed -i "s%gpgcheck=1%gpgcheck=0%g"  /etc/yum.repos.d/CentOS-Vault.repo
+        sed -i "s%enabled=0%enabled=1%g"  /etc/yum.repos.d/CentOS-Vault.repo
+2. 执行编译脚本centos7.sh
+        sh -x centos7.sh >centos7.log 2>&1 &
