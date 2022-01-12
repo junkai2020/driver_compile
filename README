@@ -1,6 +1,7 @@
 #for centos
 1. 系统环境
    建议选用每个大版本的第一个版本作为基础环境，如centos7 选择centos7.0 
+   源码包放置/root/, 同时设置下编译脚本的srpm变量
    
 2. yum repo文件  
 
