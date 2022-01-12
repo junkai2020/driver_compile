@@ -1,0 +1,75 @@
+# CentOS Vault contains rpms from older releases in the CentOS-7 
+# tree.
+#c7.0.1406
+[C7.0.1406-base]
+name=CentOS-7.0.1406 - Base
+baseurl=https://mirrors.aliyun.com/centos-vault/7.0.1406/os/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.0.1406-updates]
+name=CentOS-7.0.1406 - Updates
+baseurl=https://mirrors.aliyun.com/centos-vault/7.0.1406/updates/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.0.1406-extras]
+name=CentOS-7.0.1406 - Extras
+baseurl=https://mirrors.aliyun.com/centos-vault/7.0.1406/extras/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.0.1406-centosplus]
+name=CentOS-7.0.1406 - CentOSPlus
+baseurl=https://mirrors.aliyun.com/centos-vault/7.0.1406/centosplus/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.0.1406-fasttrack]
+name=CentOS-7.0.1406 - CentOSPlus
+baseurl=https://mirrors.aliyun.com/centos-vault/7.0.1406/fasttrack/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+# C7.1.1503
+[C7.1.1503-base]
+name=CentOS-7.1.1503 - Base
+baseurl=https://mirrors.aliyun.com/centos-vault/7.1.1503/os/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.1.1503-updates]
+name=CentOS-7.1.1503 - Updates
+baseurl=https://mirrors.aliyun.com/centos-vault/7.1.1503/updates/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.1.1503-extras]
+name=CentOS-7.1.1503 - Extras
+baseurl=https://mirrors.aliyun.com/centos-vault/7.1.1503/extras/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.1.1503-centosplus]
+name=CentOS-7.1.1503 - CentOSPlus
+baseurl=https://mirrors.aliyun.com/centos-vault/7.1.1503/centosplus/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+[C7.1.1503-fasttrack]
+name=CentOS-7.1.1503 - CentOSPlus
+baseurl=https://mirrors.aliyun.com/centos-vault/7.1.1503/fasttrack/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+
+

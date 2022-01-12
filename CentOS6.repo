@@ -1,0 +1,253 @@
+[CentOS-6.0-base]
+name=CentOS-6.0 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.0/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.0-updates]
+name=CentOS-6.0 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.0/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.0-extras]
+name=CentOS-6.0 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.0/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.1-base]
+name=CentOS-6.1 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.1/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.1-updates]
+name=CentOS-6.1 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.1/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.1-extras]
+name=CentOS-6.1 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.1/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.2-base]
+name=CentOS-6.2 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.2/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.2-updates]
+name=CentOS-6.2 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.2/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.2-extras]
+name=CentOS-6.2 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.2/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.3-base]
+name=CentOS-6.3 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.3/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.3-updates]
+name=CentOS-6.3 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.3/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.3-extras]
+name=CentOS-6.3 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.3/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.4-base]
+name=CentOS-6.4 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.4/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.4-updates]
+name=CentOS-6.4 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.4/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.4-extras]
+name=CentOS-6.4 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.4/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.5-base]
+name=CentOS-6.5 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.5/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.5-updates]
+name=CentOS-6.5 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.5/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.5-extras]
+name=CentOS-6.5 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.5/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.6-base]
+name=CentOS-6.6 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.6/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.6-updates]
+name=CentOS-6.6 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.6/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.6-extras]
+name=CentOS-6.6 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.6/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+
+[CentOS-6.7-base]
+name=CentOS-6.7 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.7/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.7-updates]
+name=CentOS-6.7 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.7/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.7-extras]
+name=CentOS-6.7 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.7/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.8-base]
+name=CentOS-6.8 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.8/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.8-updates]
+name=CentOS-6.8 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.8/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.8-extras]
+name=CentOS-6.8 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.8/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.9-base]
+name=CentOS-6.9 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.9/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.9-updates]
+name=CentOS-6.9 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.9/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.9-extras]
+name=CentOS-6.9 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.9/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+[CentOS-6.10-base]
+name=CentOS-6.10 - Base
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.10/os/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#released updates 
+[CentOS-6.10-updates]
+name=CentOS-6.10 - Updates
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.10/updates/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+
+#additional packages that may be useful
+[CentOS-6.10-extras]
+name=CentOS-6.10 - Extras
+failovermethod=priority
+baseurl=https://mirrors.aliyun.com/centos-vault/6.10/extras/$basearch/
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
