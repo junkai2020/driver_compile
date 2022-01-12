@@ -1,16 +1,26 @@
 #for centos
-1. yum repo文件  
+1. 系统环境
+   建议选用每个大版本的第一个版本作为基础环境，如centos7 选择centos7.0 
+   
+2. yum repo文件  
+
    #for centos 7  CentOS-Base.repo CentOS-Vault.repo
-   #直接获取：https://github.com/junkai2020/repo/blob/main/CentOS7-Base.repo https://github.com/junkai2020/repo/blob/main/CentOS7-Vault.repo
+   ##CentOS-Base.repo
    wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo
    sed -i -e '/mirrors.cloud.aliyuncs.com/d' -e '/mirrors.aliyuncs.com/d' /etc/yum.repos.d/CentOS-Base.repo
-   sed -i "s%http://vault.centos.org%https://mirrors.aliyun.com/centos-vault%g"  /etc/yum.repos.d/CentOS-Vault.repo
-   sed -i "s%gpgcheck=1%gpgcheck=0%g"  /etc/yum.repos.d/CentOS-Vault.repo
-   sed -i "s%enabled=0%enabled=1%g"  /etc/yum.repos.d/CentOS-Vault.repo
+   ##CentOS-Vault.repo
+   使用当前的CentOS6-Vault.repo 覆盖掉系统默认的CentOS-Vault.repo文件
+
    
-   #for centos6 
-   #直接获取：https://github.com/junkai2020/repo/blob/main/CentOS6.repo
+   #for centos6  
+   使用当前的CentOS6.repo 覆盖掉系统默认的 CentOS-Base.repo
    
-2. 执行编译脚本centos7.sh
+   #for centos 8
+   wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-8.repo
+   sed -i -e '/mirrors.cloud.aliyuncs.com/d' -e '/mirrors.aliyuncs.com/d' /etc/yum.repos.d/CentOS-Base.repo
+   
+3. 执行编译脚本
    sh -x centos7.sh >centos7.log 2>&1 &
    sh -x centos6.sh >centos6.log 2>&1 &
+   sh -x centos8.sh >centos6.log 2>&1 &
+   
